@@ -249,7 +249,7 @@ function bindPopstate() {
     }
     else
     {
-      router.navigate(history.state['page'], true);
+      router.navigate(event.state.page, true);
     }
   });
 
