@@ -4,9 +4,15 @@
 const CACHE_NAME = 'lab-7-starter';
 
 const urlsToCache = [
-  '/',
-  '/styles/main.css',
-  '/script/main.js'
+  //'/',
+  //'/styles/main.css',
+  //'/script/main.js',
+  'https://introweb.tech/assets/json/ghostCookies.json',
+  'https://introweb.tech/assets/json/birthdayCake.json',
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'https://introweb.tech/assets/json/stuffing.json',
+  'https://introweb.tech/assets/json/turkey.json',
+  'https://introweb.tech/assets/json/pumpkinPie.json'
 ];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
